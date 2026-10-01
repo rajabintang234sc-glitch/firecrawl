@@ -1,0 +1,13 @@
+{
+  "name": "eo-budget-agent-ui-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional browser tests; the EO dashboard itself runs on the Python standard library.",
+  "scripts": {
+    "test:ui": "playwright test",
+    "check": "node --check web/app.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}
