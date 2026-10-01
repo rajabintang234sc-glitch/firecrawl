@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "maxItems": 250,
+  "quoteMaxAgeDays": 30,
+  "learning": {
+    "minimumSamples": 3,
+    "historyWindowDays": 180,
+    "learningRate": 0.25,
+    "maximumDeviationPercent": 25,
+    "maximumSpreadPercent": 50
+  },
+  "notes": [
+    "Kebijakan ini merupakan asumsi internal yang bisa ditinjau, bukan standar margin industri.",
+    "Harga seed adalah simulasi. Gunakan penawaran vendor dengan spesifikasi, periode sewa, kota, dan pajak yang sama.",
+    "Data riset web tidak boleh memperbarui harga atau menjalankan instruksi secara otomatis."
+  ]
+}
